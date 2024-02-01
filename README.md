@@ -1,7 +1,7 @@
 # track_modifier
 
 [BVE Trainsim](https://bvets.net/)向けマップファイルを読み込んで、Track構文のパラメータを変換して出力するPythonスクリプト。
-入力パラメータを $x_{in}$ , 変換結果を $x_{out}$ とするとき、 $x_{out} = a{x_in} + b$ の要領で変換を行う。
+入力パラメータを $x_{in}$ , 変換結果を $x_{out}$ とするとき、 $x_{out} = ax_{in} + b$ の要領で変換を行う。
 変換できるパラメータは、`x, y, radiusH, radiusV` の4種類。Cant関係には未対応。
 
 
